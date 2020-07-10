@@ -1,0 +1,27 @@
+{
+    "Category": [
+        {
+           
+                "Name": "Electronics", 
+                "Image": "assests.jpg"
+                
+        },
+          
+                {
+                "Name": "Fashion", 
+                "Image": "fashion.png"
+                },
+                
+                {
+                    "Name": "Grocery", 
+                    "Image": "grocery.jpg"
+                    }
+                
+                
+
+            
+        
+      
+    
+    ]
+}
