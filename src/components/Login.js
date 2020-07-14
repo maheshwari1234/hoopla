@@ -2,8 +2,9 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button, Form } from 'react-bootstrap';
 import { Lock } from 'react-bootstrap-icons';
-import {Link} from 'react-router-dom'
-import Navbar from './Navbar'
+import {Link} from 'react-router-dom';
+import Navbar from './Navbar';
+import data from './Data.json';
 
 class Login extends React.Component {
     constructor(props) {
@@ -23,7 +24,8 @@ class Login extends React.Component {
                 button: false
             },
             successMessage: "",
-            errorMessage: ""
+            errorMessage: "",
+            roleProp:""
         }
     }
 
@@ -83,15 +85,33 @@ class Login extends React.Component {
     handleSubmit = (e) => {
         e.preventDefault();
 
-        if (this.state.form.email === "Admin@gmail.com" && this.state.form.password === "Admin@infy20") {
-            this.setState({ successMessage: "Login successfully" })
-            this.props.history.push("/home")
-            console.log("login successfully")
+        {data.map((item, i) => {
+            console.log('data',item)
+            if(this.state.form.email===item.userName){
+                console.log("role",item.roles)
+                const role=item.roles[0]
+                    console.log("successfully logged in as",role)
+                    this.setState({successMessage:"Successfully Logged in as"+role,roleProp:role})
+                    this.props.history.push({pathname:"/home",role:role})
+            }
+            else{
+                this.setState({ errorMessage: "Invalid Credentials" })
+                    console.log("You have not registered yet Please create an account")
+            }
+
+            
+            
+        })
         }
-        else {
-            this.setState({ errorMessage: "Invalid Credentials" })
-            console.log("You have not registered yet Please create an account")
-        }
+
+
+        // if (this.state.form.email === "Admin@gmail.com" && this.state.form.password === "Admin@infy20") {
+        //     
+        // }
+        // else {
+        //     this.setState({ errorMessage: "Invalid Credentials" })
+        //     console.log("You have not registered yet Please create an account")
+        // }
     }
 
     render() {

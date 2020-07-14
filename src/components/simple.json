@@ -1,0 +1,21 @@
+{
+    "Electronics": [
+        {
+           
+                "Name": "Mobiles", 
+                "Image": "Mobile.jpg"
+                
+        },
+          
+                {
+                "Name": "TV", 
+                "Image": "tv.jpg"
+                },
+                
+                {
+                    "Name": "Laptop", 
+                    "Image": "laptop.jpg"
+                    }
+    
+    ]
+}

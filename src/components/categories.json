@@ -3,7 +3,7 @@
         {
            
                 "Name": "Electronics", 
-                "Image": "assests.jpg"
+                "Image": "electronic.jpg"
                 
         },
           
@@ -15,13 +15,16 @@
                 {
                     "Name": "Grocery", 
                     "Image": "grocery.jpg"
+                    },
+                    {
+                        "Name": "Furniture", 
+                        "Image": "Furniture.jpg"  
                     }
+                    
+                    
                 
                 
 
-            
-        
-      
     
     ]
 }

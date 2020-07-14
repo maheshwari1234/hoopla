@@ -1,0 +1,132 @@
+{
+            "Mobiles": [
+                {
+                  "Name": "Redmi",
+                  "About": [
+                    {
+                        "Model":"Redmi 6 pro",
+                        "description": "64Gb internal memory ",
+                        "Price":11500,
+                        "Color":"Blue",
+                        "Image":"Redmi6pro.jpg"
+                    },
+                    {
+                        "Model":"Redmi K20 Pro",
+                        "description": "128Gb internal memory ",
+                        "Price":25000,
+                        "Color":"Black",
+                        "Image":"Redmik20Pro.jpg"
+                    }
+            
+                  ]
+
+                },
+                {
+                    "Name": "SamSung",
+                    "About": [
+                      {
+                        "Model": "Samsung Galaxy M31",
+                        "description": "32Gb internal memory ",
+                        "Price":18000,
+                        "Color":"Black",
+                        "Image":"samsung1.jpg"
+                      },
+                      {
+                        "Model": "Samsung Galaxy S20",
+                        "description": "128Gb internal memory ",
+                        "Price":20000,
+                        "Color":"SkyBlue",
+                        "Image":"sam2.jpg"
+                      }
+              
+                    ]
+  
+                  }
+                ],
+
+    
+    "TV": [
+        {
+            "Name": "LG",
+            "About":[
+            {
+              "Model": "LED TV",
+              "description": "64Gb internal memory ",
+              "Price":39900,
+              "Color":"Black"
+            },
+            {
+              "Model": "Smart Tv",
+              "description": "128Gb internal memory ",
+              "Price":50000,
+              "Color":"Blue"
+            }
+          ]
+        },
+        {
+          "Name": "Samsung",
+          "About":[
+              {
+                "Model": "Samsung Full Hd",
+                "description": "43Inch 40W 4Ch Speaker",
+                "Price":40000,
+                "Color":"Black",
+                "Image":"samtv1.jpg"
+              },
+              {
+                "Model":"Samsung 4K HD",
+                "description":"53 Inch Sound Output: 20 W",
+                "Price":60000,
+                "Color":"Black",
+                "Image":"samtv2.jpg"
+              }
+            ]
+        }
+      ],
+      "Laptop": [
+        {
+            "Name": "Dell",
+            "About":[
+            {
+              "Model": "Dell Inspiron 15 3567",
+              "description": "14 inch Screen Intel Core i3 Processor 4GB Memory",
+              "Price":40000,
+              "Color":"Black",
+              "Image":"dell.jpg"
+            },
+            {
+              "Model": "Dell Vostro 14 3480",
+              "description": "14 inch Screen Intel Core i5 Processor 8GB Memory",
+              "Price":50000,
+              "Color":"Blue",
+              "Image":"deel2.jpg"
+            }
+          ]
+        },
+        {
+          "Name": "HP",
+          "About":[
+            {
+              "Model": "HP Pavilion x360 14",
+              "description": "13 inch Screen Intel Core i7 Processor 8GB Memory",
+              "Price":65000,
+              "Color":"Silver",
+              "Image":"hp2.jpg"
+            },
+            {
+              "Model":"HP 15Q-DS0029TU",
+              "description": "12 inch Screen Intel Core i5 Processor 4GB Memory",
+              "Price":55000,
+              "Color":"Black",
+              "Image":"hp2.jpg"
+            }
+            ]
+        }
+      ]
+    
+    
+
+
+}
+      
+    

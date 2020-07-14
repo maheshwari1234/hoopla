@@ -1,0 +1,67 @@
+{
+    "Electronics": [
+        {
+           
+                "Name": "Mobiles", 
+                "Image": "Mobile.jpg"
+                
+        },
+          
+                {
+                "Name": "TV", 
+                "Image": "tv.jpg"
+                },
+                
+                {
+                    "Name": "Laptop", 
+                    "Image": "laptop.jpg"
+                    }
+    
+    ],
+
+    "Fashion":[
+        
+        {
+            "Name": "Clothes", 
+            "Image": "clothes.jpg"
+            },
+
+ 
+        {
+            "Name": "Shoe", 
+            "Image": "shoe.jpg"
+            }
+
+
+    ],
+    "Grocery":[
+        
+        {
+            "Name": "Cereals", 
+            "Image": "cereals.jpg"
+            },
+
+ 
+        {
+            "Name": "Snacks", 
+            "Image": "snack.jpg"
+            }
+
+
+    ],
+    "Furniture":[
+        
+        {
+            "Name": "Sofa", 
+            "Image": "sofa.jpg"
+            },
+
+ 
+        {
+            "Name": "Chair", 
+            "Image": "chair.jpg"
+            }
+
+
+    ]
+}

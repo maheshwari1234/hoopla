@@ -1,0 +1,26 @@
+[
+    {
+      
+        "userName":"ABCadmin@gmail.com",
+        "id":"Admin@1",
+        "name":"ABC",
+        "roles":["Admin"]
+        
+    },
+    {
+      
+        "userName":"Xyzagent@gmail.com",
+        "id":"Agent@1",
+        "name":"XYZ",
+        "roles":["Agent"]
+        
+    },
+    {
+      
+        "userName":"Pqruser@gmail.com",
+        "id":"user@1",
+        "name":"PQR",
+        "roles":["User"]
+        
+    }
+]
